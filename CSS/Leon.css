@@ -283,12 +283,14 @@ header nav .links li:not(:last-child) a {
 .portfolio .container .portfolio-content {
 	gap: 30px;
 }
-.portfolio .container .portfolio-content .card {
-	padding-top: 10px;
-	transition: padding-top 0.3s;
-}
-.portfolio .container .portfolio-content .card:hover {
-	padding: 0;
+@media (min-width: 1200px) {
+	.portfolio .container .portfolio-content .card {
+		padding-top: 10px;
+		transition: padding-top 0.3s;
+	}
+	.portfolio .container .portfolio-content .card:hover {
+		padding: 0;
+	}
 }
 .portfolio .container .portfolio-content .card .image img {
 	width: 100%;
