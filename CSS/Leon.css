@@ -178,6 +178,7 @@ header nav .links li:not(:last-child) a {
 	background-size: cover;
 	height: calc(100vh - 64px);
 	position: relative;
+	padding: 0;
 }
 .landing .intro-text {
 	position: absolute;
