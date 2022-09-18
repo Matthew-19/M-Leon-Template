@@ -91,7 +91,7 @@ section {
 		font-size: 60px;
 	}
 	.special-heading::before {
-		bottom: -2px;
+		font-size: 15px;
 	}
 }
 /* End Components */
@@ -279,11 +279,6 @@ header nav .links li:not(:last-child) a {
 }
 .portfolio .container .special-heading::before {
 	content: "If you do it right, it will last forever.";
-}
-@media (max-width: 767px) {
-	.portfolio .container .special-heading::before {
-		width: 106%;
-	}
 }
 .portfolio .container .portfolio-content {
 	gap: 30px;
